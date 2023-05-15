@@ -12,7 +12,7 @@ Il a pour rôle de détecter le mouvement de la porte, d'allumer une led et d'en
 
 **Matériels utilisés**
 ==
-Un capteur de mouvement:detecteur infrarouge PIR IT15IR (fiabilité et précision)
+Un capteur de mouvement:detecteur infrarouge PIR IT15IR 
 
 Une LED EL34-01W et résistance de 220 ohm
 
