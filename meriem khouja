@@ -1,0 +1,10 @@
+le but principal de ce projet était de créer un objet qui alerte
+l'utilisateur dans le cas d'une détection d'intrusion.
+Nous avons écrit un code qui simultanément allume une LED et
+envoie un mail d'alerte.
+l'idée originale était de mieux régler cet objet pour qu'il détecte grave
+à un module bluetooth, le téléphone du propriétaire pour ne pas
+envoyer d'alerte, mais on s'est contenté de juste envoyer un mail car
+nous n'avons pas obtenu le module bluetooth.
+Le projet fonctionne comme souhaité, et je pense que ça pourra
+évoluer à un objet de sécurité plus évolué.
