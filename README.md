@@ -2,7 +2,7 @@
 ==
 Ce projet est réalisé dans le cadre du module de Communication Sans Fil en Licence 1 à l'Université Côte d'Azur
 
-**objectif$$
+**objectif**
 ==
 
 ce projet a pour objectif d'assurer la sécurité des logements en prévenant les locataires par un message(mail) d'alerte
