@@ -1,3 +1,21 @@
-Point de vue
-==
+je vous présenterai mon point de vue sur ce projet:
+
+Notre projet consiste a améliorer une meilleure sécurité, un meilleur confort à touts locataires:détécter le mouvement de la porte et prévenir e locataire à chaque mouvement de la porte afin de lui indiquer qu'une persoone est rentrée.
+À la demi-présentation, on a aussi indiqué qu'on voulait prévenir la police et d'annuler l'envoi de mail si c'est le locataire qui rentre(grâce au module bluetooth),mais malheuresement y'a eu un problème de matériel et on a pas pu réaliser cette partie-là.
+Pour réaliser ça, on a choisi de prendre le capteur pir (pour sa fiabilité) et de s'appuyer sur thethingsnetwork et tagoaio afin d'envoyer le message d'alerte.
+Je vais expliquer comment on a réalisé cela:
+
+Tout d'abord, il a fallu créer un compte thethingsnetwork,créer une application puis un device afin d'avoir DevEUI, Dev Adr, AppSkey,
+
+NetwSkey pour les rajouter au code 'basic' qui se base sur LoRA (sans surprise car TTN s'appuis sur la technologie LoRa).
+
+Puis on a le code 'pir' afin d'avoir la possibilité de voir les data .Un compte Tago.io pour l'envoie du message (il a fallu réaliser la connexion entre TTN etIo en créant un device sur Io qui se base sur le device de TTN et initialiser l'Authorization afin de créer unWebhook qui se base sur l'Authorization de Io)
+La connexion ainsi créer, le locataire reçoit un mail (5min après qu'un mouvement a été détecté).
+
+
+Après ça, j'ai voulu rajouté un message qui affiche 'welcome' grâce au screen et au code 'message welcome'.
+
+La réalisation de ce projet a été un peu compliqué car pour ma part je n'avais pas de connaissance pour ce qui codage et la communication sans fil.
+On voulait réaliser tout ce qu'on souhaite mais on reste satisfaites de notre projet qui promet une meilleure sécurité de nos maisons .
+
 
