@@ -16,7 +16,7 @@ L'objectif de notre projet est d'améliorer la sécurité de nos appartements.
 Il a pour rôle de détecter le mouvement de la porte, d'allumer une led et d'envoyer un mail, d'afficher un message au dessus de la porte
 
 
-**Résultats$$
+**Résultats**
 ==
 
 Aprés le mouvement de la porte, la led s'allume (4s). Un mail est allumé alarmant le locataire de l'intrusion
